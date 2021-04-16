@@ -33,3 +33,9 @@ Tools → Libraries → New Library
 
       --add-modules javafx.controls,javafx.fxml
 
+## fxml - пишемо вручну чи чимось редагуємо?
+
+Яке-таке "вручну"? Безумовно редагуємо за допомогою - Java FX Scene Builder. Беремо його у Oracle:
+
+* https://www.oracle.com/java/technologies/javafxscenebuilder-1x-archive-downloads.html
+
