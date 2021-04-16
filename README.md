@@ -28,4 +28,8 @@ Tools → Libraries → New Library
 
 * Properties → Libraries → Classpath - додаємо бібліотеку Java FX 14.
 * Properties → Libraries → Run - додаємо бібліотеку Java FX 14.
-* Properties → Run → VM Options - додаємо "--add-modules javafx.controls,javafx.fxml"
+* Properties → Build → Compiling - деактивуємо Compile on Save.
+* Properties → Run → VM Options - додаємо
+
+      --add-modules javafx.controls,javafx.fxml
+
