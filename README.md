@@ -13,3 +13,19 @@
     wget https://gluonhq.com/download/javafx-14-jmods-linux/ -O openjfx-14_linux-x64_bin-jmods.zip
     wget https://gluonhq.com/download/javafx-14-sdk-linux/ -O openjfx-14_linux-x64_bin-sdk.zip 
     wget https://gluonhq.com/download/javafx-14-javadoc/ -O openjfx-14-javadoc.zip 
+
+## Як додати до Netbeans?
+
+Спочатку кудись розпакувати. Наприклад у /usr/local/lib/openjfx. Маємо директорію javafx-sdk-16.
+
+Tools → Libraries → New Library
+
+Даємо ім'я Java FX 14, додаємо jar з javafx-sdk-16 (але не src.zip!).
+
+## Що ще?
+
+У самому проекті.
+
+* Properties → Libraries → Classpath - додаємо бібліотеку Java FX 14.
+* Properties → Libraries → Run - додаємо бібліотеку Java FX 14.
+* Properties → Run → VM Options - додаємо "--add-modules javafx.controls,javafx.fxml"
