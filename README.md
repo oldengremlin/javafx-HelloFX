@@ -10,6 +10,6 @@
 
 ## Як швидко завантажити собі OpenJFX 14?
 
-  wget https://gluonhq.com/download/javafx-14-jmods-linux/ -O openjfx-14_linux-x64_bin-jmods.zip
-  wget https://gluonhq.com/download/javafx-14-sdk-linux/ -O openjfx-14_linux-x64_bin-sdk.zip 
-  wget https://gluonhq.com/download/javafx-14-javadoc/ -O openjfx-14-javadoc.zip 
+    wget https://gluonhq.com/download/javafx-14-jmods-linux/ -O openjfx-14_linux-x64_bin-jmods.zip
+    wget https://gluonhq.com/download/javafx-14-sdk-linux/ -O openjfx-14_linux-x64_bin-sdk.zip 
+    wget https://gluonhq.com/download/javafx-14-javadoc/ -O openjfx-14-javadoc.zip 
