@@ -10,5 +10,6 @@
    <children>
       <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="463.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleClickMeButton" prefHeight="25.0" prefWidth="126.0" text="Click me!" textAlignment="CENTER" />
       <Label fx:id="theLabel" layoutX="300.0" layoutY="200.0" />
+      <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="463.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleClickClearButton" prefHeight="25.0" prefWidth="126.0" text="Clear" textAlignment="CENTER" />
    </children>
 </AnchorPane>
