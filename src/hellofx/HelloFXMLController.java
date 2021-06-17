@@ -36,9 +36,9 @@ public class HelloFXMLController implements Initializable {
     private void handleClickMeButton(ActionEvent event) {
         theLabel.setText(
                 "Hello, JavaFX "
-                + System.getProperty("java.version")
-                + "\nRunning on Java "
                 + System.getProperty("javafx.version")
+                + "\nRunning on Java "
+                + System.getProperty("java.version")
                 + "."
         );
     }
