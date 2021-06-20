@@ -1,4 +1,4 @@
-# Netbeans 12.3 + JDK 14 + OpenJFX 16
+# Netbeans 12.3 + JDK 16 + OpenJFX 16
 
 Простий приклад того як у Netbeans 12.3 з JDK 16 сформувати робочий проект JavaFX, за допомогою OpenJFX 16.
 
