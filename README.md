@@ -1,6 +1,6 @@
-# Netbeans 12.3 + JDK 14 + OpenJFX 14
+# Netbeans 12.3 + JDK 14 + OpenJFX 16
 
-Простий приклад того як у Netbeans 12.3 з JDK 14 сформувати робочий проект JavaFX, за допомогою OpenJFX 14.
+Простий приклад того як у Netbeans 12.3 з JDK 16 сформувати робочий проект JavaFX, за допомогою OpenJFX 16.
 
 ## Корисні посилання:
 
@@ -8,11 +8,11 @@
 * https://openjfx.io/openjfx-docs/
 * https://gluonhq.com/products/javafx/
 
-## Як швидко завантажити собі OpenJFX 14?
+## Як швидко завантажити собі OpenJFX 16?
 
-    wget https://gluonhq.com/download/javafx-14-jmods-linux/ -O openjfx-14_linux-x64_bin-jmods.zip
-    wget https://gluonhq.com/download/javafx-14-sdk-linux/ -O openjfx-14_linux-x64_bin-sdk.zip 
-    wget https://gluonhq.com/download/javafx-14-javadoc/ -O openjfx-14-javadoc.zip 
+    wget https://gluonhq.com/download/javafx-16-jmods-linux/ -O openjfx-16_linux-x64_bin-jmods.zip
+    wget https://gluonhq.com/download/javafx-16-sdk-linux/ -O openjfx-16_linux-x64_bin-sdk.zip 
+    wget https://gluonhq.com/download/javafx-16-javadoc/ -O openjfx-16-javadoc.zip 
 
 ## Як додати до Netbeans?
 
@@ -20,14 +20,14 @@
 
 Tools → Libraries → New Library
 
-Даємо ім'я Java FX 14, додаємо jar з javafx-sdk-16 (але не src.zip!).
+Даємо ім'я Java FX 16, додаємо jar з javafx-sdk-16 (але не src.zip!).
 
 ## Що ще?
 
 У самому проекті.
 
-* Properties → Libraries → Classpath - додаємо бібліотеку Java FX 14.
-* Properties → Libraries → Run - додаємо бібліотеку Java FX 14.
+* Properties → Libraries → Classpath - додаємо бібліотеку Java FX 16.
+* Properties → Libraries → Run - додаємо бібліотеку Java FX 16.
 * Properties → Build → Compiling - деактивуємо *Compile on Save*.
 * Properties → Run → VM Options - додаємо:
 
